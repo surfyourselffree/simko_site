@@ -31,6 +31,3 @@ $('#working_form').submit(function() {
     return false;
 
 });
-
-
-

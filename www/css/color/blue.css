@@ -6,13 +6,13 @@
 .custom-nav.stickyadd .navbar-nav li a:active,
 .custom-nav.stickyadd .navbar-nav li.active a,
 .about-social li a:hover {
-    color: #37b8df !important;
+    color: #103DE0 !important;
 }
 
 .btn-custom,
 .form-kerri .form-control:focus,
 .about-social li a:hover {
-    border-color: #37b8df;
+    border-color: #103DE0;
 }
 
 .btn-custom,
@@ -21,7 +21,7 @@
 .owl-theme .owl-controls .owl-page span,
 .work_menu a.active,
 .work_menu a:hover {
-    background-color: #37b8df;
+    background-color: #103DE0;
 }
 
 .btn-custom:hover,
@@ -33,6 +33,6 @@
 .btn-custom:focus,
 .btn-custom:hover,
 .open > .dropdown-toggle.btn-custom {
-    background-color: #31a3c6;
-    border-color: #31a3c6;
+    background-color: #103DE0;
+    border-color: #103DE0;
 }

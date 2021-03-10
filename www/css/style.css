@@ -1,19 +1,10 @@
-/*-----------------------------------------------------------
-* Template Name    : Kerri | Responsive Bootstrap 4 Personal Template
-* Author           : SRBThemes
-* Version          : 1.0.0
-* Created          : March 2018
-* File Description : Main css file of the template
-*------------------------------------------------------------
-*/
-
 
 /***********************
     1.BASIC
     2.HELPER
     3.NAVBAR
     4.HOME
-    5.ABOUT 
+    5.ABOUT
     6.SERVICES
     7.CLIENT
     8.WORK
@@ -22,24 +13,38 @@
     11.RESPONSIVE
 ************************/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /*======================
         1.BASIC
 ========================*/
 
-body {
-    font-family: 'Nunito', sans-serif;
-    overflow-x: hidden;
-}
 
+/*background: hsla(341, 90%, 52%, 1);
+
+background: linear-gradient(90deg, hsla(341, 90%, 52%, 1) 0%, hsla(19, 98%, 48%, 1) 0.25%, hsla(288, 84%, 48%, 1) 0.5%, hsla(227, 87%, 47%, 1) 0.75%);
+
+background: -moz-linear-gradient(90deg, hsla(341, 90%, 52%, 1) 0%, hsla(19, 98%, 48%, 1) 0.25%, hsla(288, 84%, 48%, 1) 0.5%, hsla(227, 87%, 47%, 1) 0.75%);
+
+background: -webkit-linear-gradient(90deg, hsla(341, 90%, 52%, 1) 0%, hsla(19, 98%, 48%, 1) 0.25%, hsla(288, 84%, 48%, 1) 0.5%, hsla(227, 87%, 47%, 1) 0.75%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f3165c", endColorstr="#f24f03", GradientType=1 );*/
+
+
+body {
+	font-family: font-family: 'Trirong', serif;
+	font-style: regular;
+	font-weight: 300;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Trirong', serif;
+	font-style: bold-italic;
+	font-weight: 500;
 }
 
 a,
@@ -285,7 +290,7 @@ button:focus {
 
 .custom-nav .navbar-toggler {
     color: #fff;
-    font-size: 35px;
+    font-size: 50px;
     padding: 0px;
 }
 
@@ -305,7 +310,7 @@ button:focus {
 =============================*/
 
 .header-bg-img {
-    background-image: url(../images/header-bg.jpg);
+    background-image: url(https://i.ibb.co/Bfp3Kj5/IMG-0024-Moment.jpg);
     position: relative;
     background-size: cover;
     background-position: center center;
@@ -348,8 +353,8 @@ button:focus {
 
 .scroll_down i {
     position: relative;
-    -webkit-animation: bounce 2s infinite; 
-    animation: bounce 2s infinite; 
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
     height: 44px;
     width: 28px;
     line-height: 54px;

@@ -33,20 +33,7 @@ if(get_magic_quotes_gpc()) {
 	$comments = stripslashes($comments);
 }
 
-
-// Configuration option.
-// Enter the email address that you want to emails to be sent to.
-// Example $address = "joe.doe@yourdomain.com";
-
-//$address = "example@example.net";
-$address = "example@example.net";
-
-
-// Configuration option.
-// i.e. The standard subject will appear as, "You've been contacted by John Doe."
-
-// Example, $e_subject = '$name . ' has contacted you via Your Website.';
-
+$address = "me@christinesimko.com";
 $e_subject = 'You have been contacted by ' . $name . '.';
 
 
@@ -72,13 +59,13 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 	echo "<fieldset>";
 	echo "<div id='success_msg'>";
-	echo "<h3>Email Sent Successfully.</h3>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
+	echo "<h3>Email Sent Successfully!</h3>";
+	echo "<p>Thanks a bunch, <strong>$name</strong>, this is confirmation that your message has been submitted.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 
 } else {
 
-	echo 'ERROR!';
+	echo 'ERROR! Email failed to send for some twilight zone-reasoning.';
 
 }
