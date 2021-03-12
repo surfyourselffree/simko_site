@@ -63,6 +63,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "<p>Thanks a bunch, <strong>$name</strong>, this is confirmation that your message has been submitted.</p>";
 	echo "</div>";
 	echo "</fieldset>";
+	
 
 } else {
 
