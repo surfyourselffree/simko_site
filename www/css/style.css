@@ -675,6 +675,17 @@ button:focus {
     line-height: 42px;
     text-align: center;
 }
+#footer {
+  width: 300px;
+  height: 200px;
+  background: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
 
 
 /*===========================
@@ -731,4 +742,13 @@ button:focus {
     .home-bg .curv-img {
         bottom: -5px;
     }
+}
+#myDIV {
+  background: #22577a;
+  animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: #22577a;}
+  to {background-color: #ccff33;}
 }
